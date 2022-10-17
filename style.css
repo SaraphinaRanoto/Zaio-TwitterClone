@@ -97,14 +97,16 @@ h4{
 }
 .center-column{
     float: left;
-    width: 45%;    
+    width: 45%;  
+    border-right: 1px solid #2f3336;  
 }
 .right-column{
     float: left;
     width: 30%;
     height: 100%;
-    border-left: 1px solid #2f3336;
-    overflow-y: hidden;
+    position: sticky;
+    top: 0%;
+    /* overflow-y: hidden; */
 }
 .home-container{
     display: flex;
@@ -113,7 +115,7 @@ h4{
     padding: 20px 10px;
     color: rgba(231, 233, 234);
     position: sticky;
-    top: 0;
+    top: 0;  
 }
 .post-tweet{
     /* margin-top: 100px; */
